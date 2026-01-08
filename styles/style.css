@@ -7,6 +7,14 @@
     font-size: 16px;
 }
 
+.color-primary {
+    color: #30B868;
+}
+
+.color-white {
+    color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +27,7 @@
     border: 1px solid black;
 }
 
-.content {
+header .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +73,43 @@
     background-color: #30B800;
     border: 2px solid #30B800;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#banner {
+    background-image: url(../assets/hero-bg.png);
+}
+
+#banner .container{
+    padding-top: 115px;
+    padding-bottom: 170px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.early-access {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #FFFF;
+    border-radius: 1000px;
+}
+
+.title {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.title h1 {
+    font-size: 72px;
+}
+
+.sub-title p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#how-works {
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    color: #FFFF;
 }
