@@ -141,7 +141,7 @@ header .content {
 .note {
     text-align: center;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
-    padding: 24px;
+    padding: 70px 24px 24px;
     border-radius: 8px;
 }
 
@@ -159,6 +159,7 @@ header .content {
 }
 
 .note h4 {
+    margin: 16px auto;
     font-size: 24px;
     font-weight: 600;
 }
