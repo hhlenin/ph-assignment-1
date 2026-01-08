@@ -211,7 +211,7 @@ header .content {
 }
 
 #early-access .container {
-    padding: 80px 40px;
+    padding: 80px 0;
     background-color: #F7F6F2;
     border-radius: 12px;
 }
@@ -222,9 +222,40 @@ header .content {
     margin-bottom: 16px;
 }
 
+#footer {
+    margin-top: 120px;
+    text-align: center;
+    background-color: #001931;
+}
+
+#footer .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0 80px;
+}
+
 #early-access p {
     line-height: 24px;
 }
 #early-access .btn {
     margin: 24px auto;
+}
+
+.info img {
+    height: 60px;
+}
+
+.social p ,a {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .container p {
+    padding: 0;
+}
+
+.copy-right {
+    padding: 30px 0;
 }
