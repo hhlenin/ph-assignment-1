@@ -7,8 +7,17 @@
     font-size: 16px;
 }
 
+.font-48 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .color-primary {
     color: #30B868;
+}
+
+.color-gray {
+    color: #627382;
 }
 
 .color-white {
@@ -112,4 +121,44 @@ header .content {
     background-color: transparent;
     border: 1px solid #FFFF;
     color: #FFFF;
+}
+
+#notes .container {
+    text-align: center;
+}
+
+#notes .container h2{
+    margin-top: 70px;
+    margin-bottom: 16px;
+}
+
+.notes-group {
+    padding-top: 44px;
+    display: flex;
+    gap: 24px
+}
+
+.note {
+    text-align: center;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.note-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+}
+
+.note-icon img {
+    margin: auto;
+    padding: 0;
+}
+
+.note h4 {
+    font-size: 24px;
+    font-weight: 600;
 }
