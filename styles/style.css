@@ -28,17 +28,20 @@
     font-weight: 500;
 }
 
+.margin-t120 {
+    margin-top: 120px;
+}
+
 * {
     margin: 0;
     padding: 0;
-    /*color: #001931;*/
+    color: #001931;
 }
 
 .container {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 header .content {
@@ -169,10 +172,6 @@ header .content {
     font-weight: 600;
 }
 
-#solution {
-    margin-top: 120px;
-}
-
 #solution .content {
     display: flex;
     align-items: center;
@@ -206,7 +205,6 @@ header .content {
 }
 
 #early-access {
-    margin-top: 120px;
     text-align: center;
 }
 
@@ -223,7 +221,6 @@ header .content {
 }
 
 #footer {
-    margin-top: 120px;
     text-align: center;
     background-color: #001931;
 }
@@ -248,8 +245,6 @@ header .content {
 
 .social p ,a {
     font-size: 20px;
-    margin: 0;
-    padding: 0;
 }
 
 #footer .container p {
