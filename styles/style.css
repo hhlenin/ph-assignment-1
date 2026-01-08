@@ -178,6 +178,7 @@ header .content {
     align-items: center;
     gap: 60px;
 }
+
 #solution .content img {
     border-radius: 8px;
 }
@@ -202,4 +203,28 @@ header .content {
 .solution-card ul li {
     padding-left: 0;
     padding-bottom: 16px;
+}
+
+#early-access {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#early-access .container {
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+#early-access h3 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+#early-access p {
+    line-height: 24px;
+}
+#early-access .btn {
+    margin: 24px auto;
 }
