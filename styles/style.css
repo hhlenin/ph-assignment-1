@@ -24,9 +24,14 @@
     color: white;
 }
 
+.weight-medium {
+    font-weight: 500;
+}
+
 * {
     margin: 0;
     padding: 0;
+    /*color: #001931;*/
 }
 
 .container {
@@ -162,4 +167,39 @@ header .content {
     margin: 16px auto;
     font-size: 24px;
     font-weight: 600;
+}
+
+#solution {
+    margin-top: 120px;
+}
+
+#solution .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#solution .content img {
+    border-radius: 8px;
+}
+
+.solution-card .heading h4{
+    padding: 16px 0;
+}
+
+.solution-card .sub-title p{
+    line-height: 20px;
+    padding-bottom: 40px ;
+    padding-left: 0;
+}
+
+.solution-card ul {
+    padding: 0;
+    margin: 0;
+    list-style-image: url("../assets/CheckCircle.png");
+    list-style-position: inside;
+}
+
+.solution-card ul li {
+    padding-left: 0;
+    padding-bottom: 16px;
 }
