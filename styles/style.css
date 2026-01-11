@@ -254,3 +254,31 @@ header .content {
 .copy-right {
     padding: 30px 0;
 }
+
+@media screen and (max-width: 576px) {
+    nav {
+        /*height: 600px;*/
+    }
+    nav .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: 100%;
+    }
+    nav .content .menu ul {
+        /*height: 100%;*/
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .notes-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #solution .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #solution .content img {
+        width: 100%;
+    }
+}
